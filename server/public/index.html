@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="vendor/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+    <title>Records</title>
+</head>
+<body>
+    <h2>Musical Records</h2>
+    <section id="inputSection">
+        <input type="text" placeholder="Artist" id="inputArtist"/>
+        <input type="text" placeholder="Album" id="inputAlbum"/>
+        <input type="text" placeholder="Year" id="inputYear"/>
+        <input type="text" placeholder="Genre" id="inputGenre"/> 
+        <button type="submit" id="addNewRecord">Add New Record</button>
+    </section>
+    <table class="table table-hover table-bordered table-bordered">
+        <thead class="table table-light">
+                <th>Artist</th>
+                <th>Album Title</th>
+                <th>Year</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody id="records">
+
+        </tbody>
+    </table>
+</body>
+</html>
